@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: jaffle_shop_src
+    database: rx78Cloud
+    schema: raw
+    tables:
+      - name: customers
+        identifier: jaffleshop_customers
+      - name: items
+        identifier: jaffleshop_items
+      - name: orders
+        identifier: jaffleshop_orders
+      - name: products
+        identifier: jaffleshop_products
+      - name: stores
+        identifier: jaffleshop_stores
+      - name: supplies
+        identifier: jaffleshop_supplies
+      - name: tweets
+        identifier: jaffleshop_tweets
