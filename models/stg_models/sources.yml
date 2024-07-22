@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: jaffle_shop_src
+    description: main database sources for the jaffleshop project. Database is hosted in digital ocean server running postgres
     database: rx78Cloud
     schema: raw
     tables:
