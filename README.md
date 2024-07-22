@@ -1,15 +1,3 @@
-Welcome to your new dbt project!
+# El proyecto del Jaffle Shop
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Esto es un proyecto que se utiliza para enseñar las funciones basicas de DBT (data build tool). En este caso, estaremos usando una base de datos Postgres que corre en la nube usando el servicio de (Aiven )[https://aiven.io/].

@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_jaffleshop_stores
+    description: This table conatins all the JaffleShop stores
+
+    coloumns:
+        - name: store_id
+          description: unique store id for each store
+          data_tests:
+            - unique
+            - not_null
+
+        - name: store_name
+          description: name of the store. Usually the city the store is located on
+
+        - name: store_opened_date
+          description: date when the store was open at
